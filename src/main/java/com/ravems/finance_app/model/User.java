@@ -46,7 +46,7 @@ public class User {
     /**
      * Optional alias or handle displayed within the application.
      */
-    @Column(name = "nickname", comment = "Optional display name or handle within the application")
+    @Column(name = "nickname", comment = "Optional display name or handle within the application", unique = true)
     private String nickname;
 
     /**

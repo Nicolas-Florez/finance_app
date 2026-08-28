@@ -1,6 +1,6 @@
 package com.ravems.finance_app.model;
 
-import com.ravems.finance_app.Enums.DebtsStatus;
+import com.ravems.finance_app.enums.DebtsStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;

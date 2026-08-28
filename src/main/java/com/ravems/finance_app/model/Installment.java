@@ -1,6 +1,6 @@
 package com.ravems.finance_app.model;
 
-import com.ravems.finance_app.Enums.InstallmentStatus;
+import com.ravems.finance_app.enums.InstallmentStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 

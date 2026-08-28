@@ -1,4 +1,4 @@
-package com.ravems.finance_app.Enums;
+package com.ravems.finance_app.enums;
 
 public enum InstallmentStatus {
     PENDIENTE,
