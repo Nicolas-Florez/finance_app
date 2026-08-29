@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface DebtTypeRepository extends JpaRepository <DebtType, Long> {
+public interface DebtTypeRepository extends JpaRepository <DebtType, Integer> {
 
     DebtType findByName(String name);
 
