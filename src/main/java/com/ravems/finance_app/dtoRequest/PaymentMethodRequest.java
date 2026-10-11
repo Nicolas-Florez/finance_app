@@ -10,7 +10,6 @@ public class PaymentMethodRequest {
     @Size(max = 50, message = "El nombre  no puede tner mas de 50 caracteres")
     private String name;
 
-    @NotBlank (message = "El estado es obligatorio")
     private Boolean isActive;
     private String iconName;
 }

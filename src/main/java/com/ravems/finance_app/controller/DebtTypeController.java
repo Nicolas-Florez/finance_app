@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/admin/debt-types")
+    @RequestMapping("/api/admin/debt-types")
 public class DebtTypeController {
 
     @Autowired
